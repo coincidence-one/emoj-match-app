@@ -71,7 +71,7 @@ export default function Home() {
             <br className="hidden sm:block" />
             예를 들어{" "}
             <span className="italic">
-              "친구와 커피를 마시며 즐거운 시간을 보내고 있어요"
+              {`"친구와 커피를 마시며 즐거운 시간을 보내고 있어요"`}
             </span>
             처럼
             <br className="hidden sm:block" />
