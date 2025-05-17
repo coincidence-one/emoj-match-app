@@ -11,7 +11,7 @@ export type ToastProps = {
   duration?: number;
 };
 
-export const Toast = ({ id, message, type, duration = 3000 }: ToastProps) => {
+export const Toast = ({ message, type, duration = 3000 }: ToastProps) => {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
